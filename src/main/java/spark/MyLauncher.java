@@ -16,6 +16,7 @@ public class MyLauncher {
 				// launch spark application
 				.launch();
 		
+		// wait until subprocesses finished
 		process.waitFor();
 	}
 }
